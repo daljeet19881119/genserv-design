@@ -1,0 +1,78 @@
+page-receipt {
+    .logo{
+        width: 165px;
+        margin-left: auto;
+        display: block;
+    }
+    .logo-div{
+        border-bottom: 1px solid #111;
+        margin-bottom: 40px;
+    }
+    .para-left{
+        text-align: left;
+        margin: 10px 0;
+        font-size: 16px;
+    }
+    .para-right{
+        text-align: right;
+        margin: 10px 0;
+        font-size: 16px;
+    }
+    .login-item .item-inner{
+        border-bottom: none !important;
+    }
+    .home-btn{
+        height: 2.5em!important;
+        font-size: 18px!important;
+        border-radius: 5px;
+    }
+    .left-box{
+        width: 100px;
+        background-color: #ccc;
+        font-size: 17px;
+        float: left;
+        line-height: 25px;
+        padding: 10px;
+    }
+    .login-item{
+        background-color: transparent;
+    }
+    .body-color{
+        background-color: #d7d7d7;
+    }
+    .input_current{
+       padding-left: 5px;
+       margin-bottom: 15px;
+    }
+    .row_mission_cu{
+       padding-left: 5px;
+       margin-bottom: 15px;
+       background: #fff;
+       flex: 1 0 48%;
+    }
+    .first_row{ margin-right: 5px; }
+    .second_row{ margin-left: 5px;}
+    .data_card {
+        margin: 0px!important;
+        width: 100%;
+    }
+    .data_show{
+        padding-left: 5px;
+       margin-bottom: 5px;
+       margin-top: 5px;
+       flex: 1 0 48%;
+    }
+    .new_section{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .home-btn_section{
+        height: 2.5em!important;
+        font-size: 12px!important;
+        border-radius: 5px;
+        word-break: break-all;
+        word-wrap: break-word;
+        text-transform: capitalize;
+        white-space: normal
+    }
+}

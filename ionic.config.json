@@ -1,0 +1,8 @@
+{
+  "name": "genserv-design",
+  "app_id": "e15ffb71",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
