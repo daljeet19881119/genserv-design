@@ -10,6 +10,10 @@ import { CurrentPage } from '../pages/current/current';
 import { TimePage } from '../pages/time/time';
 import { ReceiptPage } from '../pages/receipt/receipt';
 import { MorePeoplePage } from '../pages/more-people/more-people';
+import { AppprovedReceiptPage } from '../pages/appproved-receipt/appproved-receipt';
+import { NotApprovedPage } from '../pages/not-approved/not-approved';
+import { NeedMoreInfoPage } from '../pages/need-more-info/need-more-info';
+import { HotelPage } from '../pages/hotel/hotel';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,12 @@ import { MorePeoplePage } from '../pages/more-people/more-people';
     CurrentPage,
     TimePage,
     ReceiptPage,
-    MorePeoplePage
+    MorePeoplePage,
+    AppprovedReceiptPage,
+    NotApprovedPage,
+    NeedMoreInfoPage,
+    HotelPage
+
   ],
   imports: [
     BrowserModule,
@@ -31,7 +40,12 @@ import { MorePeoplePage } from '../pages/more-people/more-people';
     CurrentPage,
     TimePage,
     ReceiptPage,
-    MorePeoplePage
+    MorePeoplePage,
+    AppprovedReceiptPage,
+    NotApprovedPage,
+    NeedMoreInfoPage,
+    HotelPage
+
   ],
   providers: [
     StatusBar,
